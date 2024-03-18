@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 2</title>
+    <style>
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 97vh;flex-direction: column;
+        gap: 20px;
+      }
+      .flex {
+        display: flex;
+        gap: 20px;
+      }
+      .flex a {
+        border-radius: 5px;
+        transition: 0.3s all;
+        text-decoration: none;
+        background-color: #01b0f1;
+        color: white;
+        border: solid 1px transparent;
+        padding: 10px 15px;
+      }
+      .flex a:hover {
+        border: solid 1px #01b0f1;
+        color: #01b0f1;
+        background-color: white;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 10px 50px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tbody>
+        <tr>
+          <td>Name</td>
+          <td>Subject</td>
+          <td>Parts</td>
+        </tr>
+        <tr>
+          <td rowspan="5">Shiva</td>
+          <td rowspan="2">Maths</td>
+          <td>A</td>
+        </tr>
+        <tr>
+          <td>B</td>
+        </tr>
+        <tr>
+          <td rowspan="3">Science</td>
+          <td>A</td>
+        </tr>
+        <tr>
+          <td>B</td>
+        </tr>
+        <tr>
+          <td>C</td>
+        </tr>
+        <tr>
+          <td rowspan="4">Ram</td>
+          <td rowspan="2">Maths</td>
+          <td>A</td>
+        </tr>
+        <tr>
+          <td>B</td>
+        </tr>
+        <tr>
+          <td rowspan="2">Science</td>
+          <td>A</td>
+        </tr>
+        <tr>
+          <td>B</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 4</title>
+    <style>
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 97vh;flex-direction: column;
+        gap: 20px;
+      }
+      .flex {
+        display: flex;
+        gap: 20px;
+      }
+      .flex a {
+        border-radius: 5px;
+        transition: 0.3s all;
+        text-decoration: none;
+        background-color: #01b0f1;
+        color: white;
+        border: solid 1px transparent;
+        padding: 10px 15px;
+      }
+      .flex a:hover {
+        border: solid 1px #01b0f1;
+        color: #01b0f1;
+        background-color: white;
+      }table,
+      th,
+      td {
+        border: 1px solid black;
+        padding: 10px 50px;
+        text-align: center;
+      }
+      table {
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tbody>
+        <tr>
+          <td>Header</td>
+          <td>Header</td>
+          <td>Header</td>
+          <td>Header</td>
+        </tr>
+        <tr>
+          <td rowspan="4">
+            You can span <br />
+            down
+          </td>
+          <td colspan="3">You can span across.</td>
+        </tr>
+        <tr>
+          <td colspan="2">It's like a puzzle</td>
+          <td rowspan="3">
+            Over <br />
+            here
+          </td>
+        </tr>
+        <tr>
+          <td rowspan="2">This way</td>
+          <td>Thay way</td>
+        </tr>
+        <tr>
+          <td>Where am i?</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

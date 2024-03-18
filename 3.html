@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 3</title>
+    <style>
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 97vh;
+      flex-direction: column;
+        gap: 20px;
+      }
+      .flex {
+        display: flex;
+        gap: 20px;
+      }
+      .flex a {
+        border-radius: 5px;
+        transition: 0.3s all;
+        text-decoration: none;
+        background-color: #01b0f1;
+        color: white;
+        border: solid 1px transparent;
+        padding: 10px 15px;
+      }
+      .flex a:hover {
+        border: solid 1px #01b0f1;
+        color: #01b0f1;
+        background-color: white;
+      }table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 10px 50px;
+        text-align: center;
+      }
+      .empty {
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tbody>
+        <tr>
+          <td style="background-color: #ffdeff">Logo</td>
+          <td style="background-color: #ddffff" colspan="6">Top Menu</td>
+        </tr>
+        <tr>
+          <td style="background-color: #ddffff" rowspan="4">
+            Side <br />
+            Menu
+          </td>
+          <td style="background-color: #feffed" rowspan="2" colspan="2">
+            World News
+          </td>
+          <td style="background-color: #feffed" rowspan="2" colspan="2">
+            Financial
+          </td>
+          <td style="background-color: #ffdeff" class="empty"> </td>
+        </tr>
+        <tr>
+          <td style="background-color: #ffdeff" class="empty">List of</td>
+        </tr>
+        <tr>
+          <td style="background-color: #feffed" rowspan="2" colspan="2">
+            Technology
+          </td>
+          <td style="background-color: #feffed" rowspan="2" colspan="2">
+            Sports
+          </td>
+          <td style="background-color: #ffdeff" class="empty">Ads</td>
+        </tr>
+        <tr>
+          <td style="background-color: #ffdeff" class="empty"> </td>
+        </tr>
+        <tr>
+          <td style="background-color: #dedede" colspan="7">Footer</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
